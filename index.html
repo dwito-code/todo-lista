@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+  <meta charset="UTF-8">
+  <title>Moja ToDo Lista</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>ToDo Lista</h1>
+
+  <button id="toggleThemeBtn">🌙 Tryb ciemny</button>
+
+  <div class="input-wrapper">
+    <input type="text" id="taskInput" placeholder="Dodaj zadanie">
+    <button id="addTaskBtn">Dodaj</button>
+  </div>
+
+  <ul id="taskList"></ul>
+
+  <!-- 🧼 MODAL: Potwierdzenie usunięcia -->
+  <div id="confirmModal" class="modal hidden">
+    <div class="modal-content">
+      <p>Czy na pewno chcesz usunąć to zadanie?</p>
+      <div class="modal-buttons">
+        <button id="confirmYes">Tak</button>
+        <button id="confirmNo">Anuluj</button>
+      </div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>

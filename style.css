@@ -1,0 +1,239 @@
+bbody {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  color: #222;
+  padding: 20px;
+  max-width: 500px;
+  margin: auto;
+  border-radius: 10px;
+}/* 📦 Ogólne ustawienia */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  color: #222;
+  padding: 20px;
+  max-width: 500px;
+  margin: auto;
+  border-radius: 10px;
+}
+
+h1 {
+  text-align: center;
+}
+
+.input-wrapper {
+  display: flex;
+  gap: 10px;
+  margin: 20px 0;
+}
+
+input[type="text"] {
+  flex: 1;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+button {
+  padding: 10px 15px;
+  background-color: #2e86de;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #1e5fad;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  padding: 8px 12px;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  margin-bottom: 5px;
+  border-radius: 5px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* 🌙 Tryb ciemny */
+.dark-mode {
+  background-color: #222;
+  color: #eee;
+}
+
+.dark-mode input,
+.dark-mode button,
+.dark-mode li {
+  background-color: #333;
+  color: white;
+  border-color: #444;
+}
+
+/* 🧼 Modal - potwierdzenie usuwania */
+.modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.6);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 999;
+}
+
+.modal-content {
+  background-color: white;
+  padding: 20px 30px;
+  border-radius: 10px;
+  text-align: center;
+  max-width: 300px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.3);
+}
+
+.modal-buttons {
+  margin-top: 15px;
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+.modal-buttons button {
+  padding: 8px 15px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.modal-buttons #confirmYes {
+  background-color: #ff4d4d;
+  color: white;
+}
+
+.modal-buttons #confirmNo {
+  background-color: #ccc;
+}
+
+/* Ukryj modal domyślnie */
+.hidden {
+  display: none;
+}
+
+
+h1 {
+  text-align: center;
+}
+
+.input-wrapper {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+input[type="text"] {
+  flex: 1;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+button {
+  padding: 10px 15px;
+  background-color: #2e86de;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #1e5fad;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  padding: 8px 12px;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  margin-bottom: 5px;
+  border-radius: 5px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* 🔥 Tryb ciemny */
+.dark-mode {
+  background-color: #222;
+  color: #eee;
+}
+
+.dark-mode input,
+.dark-mode button,
+.dark-mode li {
+  background-color: #333;
+  color: white;
+  border-color: #444;
+}
+/* 🔲 MODAL STYLES */
+.modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.6);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 999;
+}
+
+.modal-content {
+  background-color: white;
+  padding: 20px 30px;
+  border-radius: 10px;
+  text-align: center;
+  max-width: 300px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.3);
+}
+
+.modal-buttons {
+  margin-top: 15px;
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+.modal-buttons button {
+  padding: 8px 15px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.modal-buttons #confirmYes {
+  background-color: #ff4d4d;
+  color: white;
+}
+
+.modal-buttons #confirmNo {
+  background-color: #ccc;
+}
+
+.hidden {
+  display: none;
+}
